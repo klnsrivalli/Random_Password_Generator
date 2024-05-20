@@ -9,7 +9,7 @@ password_length = int(input("Enter the password length: "))
 #string variable that contains all letters,digits and punctuations
 characters = string.ascii_letters + string.digits + string.punctuation
 
-#initialised empty string
+#initialised empty string to store random password generated
 password = ""   
 
 for index in range(password_length):
